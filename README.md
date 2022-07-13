@@ -22,8 +22,10 @@ wincp -> copy all files(only those which has our code) to Ubuntu server
 
 Putty --> connect through Putty & install all libraries, use these commands
 
-sudo apt-get update && sudo apt-get install python3-pip 
+sudo apt-get update && sudo apt-get install python3-pip
+
 pip3 install -r requirements.txt 
+
 python3 main-app.py
 
 edit host and port in flask app:
